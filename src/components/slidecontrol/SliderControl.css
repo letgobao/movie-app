@@ -1,0 +1,19 @@
+.slide-control-btn button {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .slide-control-btn .next {
+    right: 5px;
+  }
+  .slide-control-btn .prev {
+    left: 5px;
+    z-index: 10;
+  }
